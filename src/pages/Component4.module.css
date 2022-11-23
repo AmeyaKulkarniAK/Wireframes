@@ -1,0 +1,342 @@
+.rectangleDiv {
+  left: 50px;
+  border-radius: var(--br-sm);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+}
+.rectangleDiv,
+.rectangleDiv1,
+.rectangleDiv2,
+.rectangleDiv3,
+.rectangleDiv4 {
+  position: absolute;
+  top: 144px;
+  background-color: var(--color-gray-200);
+  width: 297px;
+  height: 572px;
+}
+.rectangleDiv1 {
+  left: 377px;
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+}
+.rectangleDiv2,
+.rectangleDiv3,
+.rectangleDiv4 {
+  left: 704px;
+}
+.rectangleDiv3,
+.rectangleDiv4 {
+  left: 1031px;
+}
+.rectangleDiv4 {
+  top: 200px;
+  left: 1047px;
+  background-color: var(--color-white);
+  width: 265px;
+  height: 120px;
+}
+.deleteIcon {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+.deleteDiv {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  display: inline-block;
+}
+.groupDiv,
+.groupDiv1 {
+  position: absolute;
+  top: 214px;
+  left: 914px;
+  width: 59px;
+  height: 18px;
+  color: var(--color-red);
+}
+.groupDiv1 {
+  top: 213px;
+  left: 1241px;
+}
+.rectangleDiv5 {
+  position: absolute;
+  top: 340px;
+  left: 1047px;
+  background-color: var(--color-white);
+  width: 265px;
+  height: 120px;
+}
+.div1,
+.div2 {
+  position: absolute;
+  top: 212px;
+  left: 1059px;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+}
+.div2 {
+  top: 352px;
+}
+.groupIcon,
+.groupIcon1 {
+  position: absolute;
+  top: 284px;
+  left: 1059px;
+  width: 24px;
+  height: 24px;
+}
+.groupIcon1 {
+  top: 424px;
+}
+.rectangleDiv6,
+.rectangleDiv7 {
+  position: absolute;
+  top: 72px;
+  left: 50px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-200);
+  width: 297px;
+  height: 48px;
+}
+.rectangleDiv7 {
+  top: 340px;
+  left: 66px;
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  width: 265px;
+  height: 120px;
+}
+.groupIcon2 {
+  position: absolute;
+  top: 428px;
+  left: 299px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.rectangleDiv8 {
+  position: absolute;
+  top: 200px;
+  left: 393px;
+  background-color: var(--color-white);
+  width: 265px;
+  height: 120px;
+}
+.groupDiv2 {
+  position: absolute;
+  top: 213px;
+  left: 587px;
+  width: 59px;
+  height: 18px;
+  color: var(--color-red);
+}
+.rectangleDiv9 {
+  position: absolute;
+  top: 200px;
+  left: 720px;
+  background-color: var(--color-white);
+  width: 265px;
+  height: 120px;
+}
+.groupDiv3 {
+  position: absolute;
+  top: 213px;
+  left: 914px;
+  width: 59px;
+  height: 18px;
+  color: var(--color-red);
+}
+.div3,
+.div4 {
+  position: absolute;
+  top: 212px;
+  left: 405px;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+}
+.div4 {
+  left: 732px;
+}
+.groupIcon3,
+.groupIcon4 {
+  position: absolute;
+  top: 284px;
+  left: 622px;
+  width: 24px;
+  height: 24px;
+}
+.groupIcon4 {
+  left: 949px;
+}
+.rectangleDiv10,
+.rectangleDiv11 {
+  position: absolute;
+  top: 340px;
+  left: 393px;
+  background-color: var(--color-white);
+  width: 265px;
+  height: 120px;
+}
+.rectangleDiv11 {
+  top: 200px;
+  left: 66px;
+  border-radius: var(--br-sm);
+  border: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+}
+.groupIcon5,
+.groupIcon6,
+.groupIcon7 {
+  position: absolute;
+  top: 284px;
+  left: 295px;
+  width: 24px;
+  height: 24px;
+}
+.groupIcon6,
+.groupIcon7 {
+  left: 405px;
+}
+.groupIcon7 {
+  left: 732px;
+}
+.searchDiv,
+.step1Div,
+.step2Div,
+.step3Div,
+.step4Div {
+  position: absolute;
+  top: 86px;
+  left: 74px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+}
+.step1Div,
+.step2Div,
+.step3Div,
+.step4Div {
+  top: 161px;
+  left: 66px;
+  text-transform: uppercase;
+}
+.step2Div,
+.step3Div,
+.step4Div {
+  left: 393px;
+}
+.step3Div,
+.step4Div {
+  left: 720px;
+}
+.step4Div {
+  left: 1047px;
+}
+.searchIcon {
+  position: absolute;
+  top: 84px;
+  left: 299px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.rectangleDiv12 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  width: 122px;
+  height: 40px;
+}
+.addTaskDiv {
+  position: absolute;
+  top: 12px;
+  left: 53px;
+  display: inline-block;
+}
+.akarIconsplus {
+  position: absolute;
+  top: 10px;
+  left: 21px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.groupDiv4 {
+  position: absolute;
+  top: 72px;
+  left: 1206px;
+  width: 122px;
+  height: 40px;
+  cursor: pointer;
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.div5,
+.div6,
+.div7 {
+  position: absolute;
+  top: 212px;
+  left: 78px;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+}
+.div6,
+.div7 {
+  top: 352px;
+}
+.div7 {
+  left: 405px;
+}
+.groupIcon8,
+.groupIcon9 {
+  position: absolute;
+  top: 424px;
+  left: 622px;
+  width: 24px;
+  height: 24px;
+}
+.groupIcon9 {
+  left: 405px;
+}
+.groupDiv5,
+.groupDiv6,
+.groupDiv7,
+.groupDiv8 {
+  position: absolute;
+  top: 213px;
+  left: 260px;
+  width: 59px;
+  height: 18px;
+  color: var(--color-red);
+}
+.groupDiv6,
+.groupDiv7,
+.groupDiv8 {
+  top: 353px;
+  left: 1241px;
+}
+.groupDiv7,
+.groupDiv8 {
+  left: 587px;
+}
+.groupDiv8 {
+  left: 260px;
+}
+.div {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 768px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-400);
+  font-family: var(--font-poppins);
+}

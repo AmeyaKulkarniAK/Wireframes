@@ -1,0 +1,94 @@
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 410px;
+  height: 276px;
+}
+.groupIcon {
+  position: absolute;
+  top: 12px;
+  left: 374px;
+  width: 24px;
+  height: 24px;
+}
+.addTaskDiv1 {
+  position: absolute;
+  top: 30px;
+  left: 138px;
+  font-size: 28px;
+  font-weight: 600;
+  display: inline-block;
+}
+.rectangleDiv1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-gray-100);
+  width: 350px;
+  height: 56px;
+}
+.addTitleDiv {
+  position: absolute;
+  top: 17px;
+  left: 16px;
+  display: inline-block;
+}
+.groupDiv1,
+.rectangleDiv2 {
+  position: absolute;
+  top: 118px;
+  left: 30px;
+  width: 350px;
+  height: 56px;
+}
+.rectangleDiv2 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-gray-100);
+  width: 140px;
+  height: 48px;
+}
+.addTaskDiv2 {
+  position: absolute;
+  top: 14px;
+  left: 38px;
+  display: inline-block;
+}
+.groupDiv2,
+.groupDiv3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 140px;
+  height: 48px;
+}
+.groupDiv2 {
+  top: 198px;
+  left: 30px;
+  cursor: pointer;
+}
+.groupDiv {
+  position: absolute;
+  top: 176px;
+  left: 478px;
+  width: 410px;
+  height: 276px;
+}
+.addTaskDiv {
+  position: relative;
+  width: 1366px;
+  height: 628px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-400);
+  font-family: var(--font-poppins);
+}
